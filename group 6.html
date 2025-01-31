@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <fieldset>
+          <legend>Job Application Form</legend>
+          <label for="full-name">Full Name</label>
+          <input type="text" name="full-name" id="full-name" required /><br />
+          <br />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required /><br />
+          <br />
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password" /><br />
+          <br />
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" id="male" value="Male" />
+          <label for="Male">Male</label>
+          <input type="radio" name="gender" id="female" value="Female" />
+          <label for="female">Female</label><br />
+          <br />
+          <label for="remume-upload">Upload Resume: </label>
+          <input
+            type="file"
+            name="resume-upload"
+            id="resume-upload"
+            accept=".pdf, .docs, .docx"
+          /><br />
+          <br />
+          <label for="skillset">Skills:</label>
+          <textarea
+            cols="35"
+            rows="6"
+            name="textarea"
+            id="skillset"
+            placeholder="List your skills"
+          ></textarea
+          ><br />
+          <br />
+          <label for="job-role">Job Role:</label>
+          <select name="job-role" id="job-role">
+            <option value="Frontend-Developer">Frontend Developer</option>
+            <option value="Backend-Developer">Backend Developer</option>
+            <option value="Fullstack-Developer">
+              Fullstack Developer
+            </option></select
+          ><br />
+          <br />
+          <label for="experience-level">Experience Level</label>
+          <input
+            type="text"
+            name="experience-level"
+            id="experience-level"
+            value="Mid Level"
+          />
+          <br />
+          <br />
+          <label for="expected-salary">Expected Salary</label>
+          <input type="range" name="expected-salary" id="expected-salary" />
+          <output for="expected-salary" id="expected-salary-output"
+            >100000</output
+          ><br />
+          <br />
+          <input
+            type="checkbox"
+            name="terms-and-conditions"
+            id="terms-and-conditions"
+            required
+          />
+          <label for="terms-and-conditions"
+            >I agree to the terms and conditions</label
+          >
+          <br />
+          <br />
+          <button type="submit">Submit Application</button>
+          <button type="reset">Reset Form</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
