@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 39rem;
+}
+
+hr {
+    margin-top: 1rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 0.9rem;
+    color: rgb(53, 144, 53);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 0.96rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    color: rgb(66, 126, 190);
+}
+
+.months {
+    font-size: 0.97rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.skills-paragraph {
+    margin-bottom: 1rem;
+}
+
+.education {
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 0.8rem;
+}
+
+.experience {
+    margin-bottom: 1rem;
+}
+
+.experience-one {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: black;
+}
